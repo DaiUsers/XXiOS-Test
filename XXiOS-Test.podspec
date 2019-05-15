@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "XXiOS-Test"
   s.version      = "0.0.1"
+  s.ios.deployment_target = '8.0'
   s.summary      = "A short description of XXiOS-Test."
 
   # This description is used to generate tags and improve search results.
